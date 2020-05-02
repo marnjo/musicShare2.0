@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+img{
+  margin: .01rem auto;
+  display: block;
+}
+form{
+  max-width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid grey;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+p{
+  margin-bottom: 0;
+  text-align: left;
+  margin-left: auto;
+  max-width: 95%;
+}
+input[type="password"], input[type="text"] 
+{
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+input[type="text"]:focus{
+  background-color: #818181;
+  color: white;
+  border: 2px aqua solid;
+}
+input[type="button"]
+{
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  width: 100px;
+  height: 45px;
+  margin: auto;
+}
+input[type="button"]:hover{
+    background-color: deepskyblue;
+}
